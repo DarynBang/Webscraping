@@ -38,7 +38,7 @@ def scroll_me(url):
 def main():
     response = scroll_me(url)
     df = pd.DataFrame(response)
-    df.to_excel(r'C:\Users\steph\Desktop\Practice for Pandas\{user_input}.xlsx')
+    df.to_excel(r'...\{user_input}.xlsx')
     print("Saved successfully!")
 
 main()
